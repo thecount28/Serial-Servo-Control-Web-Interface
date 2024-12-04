@@ -1,0 +1,11 @@
+[env:esp32dev]
+platform = espressif32
+board = esp32dev
+framework = arduino
+lib_deps = 
+    mobizt/Firebase-ESP-Client
+    me-no-dev/AsyncTCP
+    me-no-dev/ESPAsyncWebServer
+    
+upload_speed = 921600
+monitor_speed = 115200
